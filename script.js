@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
       hiddenNav.classList.remove("hidden");
       hiddenNav.classList.toggle("open");
       hambugerIcon.classList.remove("hamburger");
-      logo.classList.toggle("hidden");
     });
   }
 
@@ -63,7 +62,6 @@ document.addEventListener("DOMContentLoaded", () => {
     closeLogo.addEventListener("click", () => {
       hiddenNav.classList.toggle("open");
       hambugerIcon.classList.add("hamburger");
-      logo.classList.toggle("hidden");
     });
   }
 
